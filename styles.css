@@ -1,0 +1,133 @@
+/* Logo image styling */
+.logo-container img {
+    float: left; 
+    margin-right: 20px; 
+    width: 250px; 
+    height: auto;
+}
+
+/* Apply color scheme and modernize navbar */
+.tea-flex-container {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    justify-content: center;
+    display: flex;
+}
+
+.tea-flex-container a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.tea-flex-container a:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+:root {
+    --primary-color: #5B4B49; /* Dark brown from the logo */
+    --secondary-color: #D3A588; /* Light brown from the logo */
+    --accent-color: #7A9E7E; /* Green accent from the logo */
+    --text-color: #FAFAFA; /* For light text color */
+    --background-color: #f0f0f0; /* Light background color */
+    --border-color: #ccc; /* Border color */
+}
+
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background-color: var(--background-color);
+    line-height: 1.6;
+    color: var(--primary-color);
+}
+
+/* Container that wraps the whole page */
+.page-container {
+    max-width: 768px; 
+    margin: 20px auto; 
+    padding: 20px;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    min-height: 424px;
+}
+
+/* Fantasy shop description styling */
+main .shop-description {
+    font-family: "Cinzel", serif; /* This is just an example; choose a suitable fantasy-styled font */
+    color: var(--accent-color);
+    margin: 20px 0; /* Space above and below the text */
+    font-size: 1.3em; /* Adjust the font size as needed */
+}
+
+/* Title styling */
+.title {
+    font-family: "Cinzel", serif; /* Fantasy font for the title */
+    color: var(--primary-color); /* Color that matches your logo/theme */
+    text-align: center; /* Center the title */
+    margin-top: 8px; /* Adjust the margin as needed */
+}
+
+.logo-container img.small-logo {
+    width: 150px; /* Adjust the width to your preference for a smaller logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Enhancing section headers for better readability */
+main h2 {
+    color: var(--primary-color);
+    font-family: 'Tangerine', cursive;
+    font-size: 2em; /* Adjust size as needed for visual impact */
+    margin: 20px 0; /* Adds some space around the headers */
+}
+
+/* Improving paragraph styling for a more elegant look */
+main p {
+    font-family: 'Cinzel', serif;
+    color: var(--primary-color);
+    line-height: 1.6; /* Ensures text is easy to read */
+    margin-bottom: 15px; /* Adds space below paragraphs */
+}
+
+
+#whispering-willow-blend p, #phoenix-feather-fizz p, #dragons-dream-draught p, #elixir-of-eldritch-moon p, #merlins-mirth p {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 5px; /* Adds rounded corners for a soft, elegant look */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for the list of teas or items, if you decide to use lists */
+ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+}
+
+ul li {
+    background-color: var(--background-color);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#whispering-willow-blend {
+    padding-top: 30px; /* Adjust the value as needed */
+}
+
+#our-story {
+    padding-top: 30px; /* Adjust the value as needed */
+}
+
+main > h1 {
+    text-align: center;
+}
